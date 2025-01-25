@@ -1,0 +1,61 @@
+.button-box{
+    margin:20px 0 0 20px ;
+}
+.button-add{
+    padding: 10px 20px;
+    background-color: blue;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.bx-plus-medical{
+    color: #fff;
+    margin-right: 5px;
+}
+.table-data{
+    max-width: 80%;
+    margin: 0 auto;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+table, th, td {
+    border: 1px solid #ddd;
+}
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+th {
+    background-color: grey;
+    color: white;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+tr:hover {
+    background-color: #ddd;
+}
+tfoot td {
+    font-weight: bold;
+    background-color: #f2f2f2;
+}
+.title-text{
+    text-align: center;
+}
+.active{
+    padding: 7px 13px;
+    box-shadow: 0 0 2px #959595;
+    border: none;
+
+}
+.button{
+    transition: all ease 0.25s;
+    padding: 5px 10px;
+    margin: 0 3px;
+    border: none;
+    box-shadow: 0 0 1px #959595;
+}
